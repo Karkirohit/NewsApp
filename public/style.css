@@ -1,0 +1,24 @@
+.background {
+    background: blueviolet;
+    background: linear-gradient(to right,rgb(81, 60, 219),navy);
+}
+
+.card-title{
+    height: 100px;
+    overflow: auto;
+}
+
+.card-title::-webkit-scrollbar{
+    display: none;
+}
+
+.card-text{
+height: 100px;
+margin-bottom: 2px;
+overflow: auto;
+}
+
+.card-text::-webkit-scrollbar{
+    display: none;
+}
+
